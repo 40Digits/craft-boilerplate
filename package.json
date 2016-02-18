@@ -1,0 +1,41 @@
+{
+  "name": "craft-boilerplate",
+  "version": "1.0.0",
+  "description": "A craft boilerplate",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/40Digits/craft-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/40Digits/craft-boilerplate/issues"
+  },
+  "homepage": "https://github.com/40Digits/craft-boilerplate#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "browserify-ejs": "0.0.2",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1",
+    "gulp-eta": "^0.5.4"
+  },
+  "browser": {
+    "waitFor": "./craft/_src/js/lib/waitFor.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-ejs",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:$"
+  },
+  "dependencies": {
+    "sassqwatch": "^0.7.4"
+  }
+}
