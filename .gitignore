@@ -1,0 +1,73 @@
+# Local Config Settings
+# ------------------------------------------------------------
+craft/config/local/db.php
+craft/config/local/general.php
+
+
+# Craft Storage & Uploads
+# ------------------------------------------------------------
+craft/storage/*
+craft/storage/backups/
+craft/storage/runtime/
+craft/storage/userphotos/
+public/uploads/*
+
+
+# Craft Project
+# ------------------------------------------------------------
+.env
+robots.txt
+**/.htaccess
+craft/vendor/*
+composer.lock
+
+
+# Logs & Databases
+# ------------------------------------------------------------
+*.log
+*.sql
+*.sqlite
+*.sublime-*
+*/logs/*
+
+
+# Build
+# ------------------------------------------------------------
+.idea
+.sass-cache
+node_modules
+
+
+# Compiled Sources
+# ------------------------------------------------------------
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+# Packages
+# ------------------------------------------------------------
+*.7z
+*.dmg
+*.iso
+*.jar
+
+
+# Misc & OS Generated Files
+# ------------------------------------------------------------
+.DS_Store
+.DS_Store?
+.Trashes
+.cache
+.project
+.settings
+.tmproj
+_notes
+dwsync.xml
+db_backups
+ehthumbs.db
+Thumbs.db
+Icon?
