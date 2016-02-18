@@ -1,4 +1,4 @@
-== CSI Local Setup Guide
+== Craft Local Setup Guide
 
 1. Create and Update Local Config Files
 	* `cp craft/config/local/db.example.php craft/config/local/db.php`
