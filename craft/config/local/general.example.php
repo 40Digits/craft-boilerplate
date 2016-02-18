@@ -33,4 +33,22 @@ return array(
   'rememberedUserSessionDuration' => 'P101Y',
   'rememberUsernameDuration'      => 'P101Y',
 
+  'syncOptions' => array(
+    'sshUser' => 'sshusername',
+    'sshHost' => 'ssh.host.com',
+    'remoteDbUser' => 'dbuser',
+    'remoteDbPass' => 'dbpass',
+    'remoteDbName' => 'dbname',
+    'folderOptions' => array(
+      'uploads' => array(
+        'localFolder' => '/Users/davidhahn/Dev/40digits-projects/example/public/uploads',
+        'remoteFolder' => '/var/www/vhosts/example/public/uploads',
+      ),
+      'storage' => array(
+        'localFolder' => '/Users/davidhahn/Dev/40digits-projects/example/craft/storage',
+        'remoteFolder' => '/var/www/vhosts/example/craft/storage/'
+      )
+    )
+  )
+
 );
