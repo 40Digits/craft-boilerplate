@@ -2,7 +2,8 @@
 
 1. Create Your database and vhost file
 	* There is nothing unsual about creating your database
-	* Just make sure you keep your credentials handy
+	* Keep your credentials handy
+	* Make sure the vhost points to the `public` folder
 	* ProTip: Use [threepio](https://github.com/40Digits/threepio)
 
 2. htaccess
