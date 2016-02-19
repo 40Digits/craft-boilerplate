@@ -21,6 +21,9 @@ $remoteDbUser = $localSyncOptions['remoteDbUser'];
 $remoteDbPass = $localSyncOptions['remoteDbPass'];
 $remoteDbName = $localSyncOptions['remoteDbName'];
 
+echo "Copying remote database to local database... \n";
+shell_exec("ssh -C {$sshUser}@{$sshHost} mysqldump -u {$remoteDbUser} --password={$remoteDbPass} {$remoteDbName} | mysql -u {$dbUser} --password={$dbPass} -D {$dbName}");
+
 //sync folders if there are folders to sync
 if(!empty($localSyncOptions['folderOptions'])) {
 	foreach ($localSyncOptions['folderOptions'] as $folderKey => $folderOptions) {
