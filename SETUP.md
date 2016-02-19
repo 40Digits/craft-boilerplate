@@ -22,3 +22,6 @@
 
 5. Gulp
 	* We use [40Digits gulp-eta](https://github.com/40Digits/gulp-eta). If you need more info about how to set it up follow that link.
+	* run `npm install`
+  * run `gulp init`
+  * run `gulp`
