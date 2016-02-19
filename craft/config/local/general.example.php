@@ -9,7 +9,7 @@
 
 return array(
     // Environment name
-    'env' => 'local'
+    'env' => 'local',
 
     // Give us more useful error messages
     'devMode' => true,
