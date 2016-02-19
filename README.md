@@ -1,9 +1,9 @@
 # Boilerplate Setup / Installation
 
 1. Setup instructions are in SETUP.md.
-2. Keep these instructions in the repo so future devs know how to set this project up.
-3. Update those instructions with specific tools you use for a project. For instance, if you need to use composer make sure to add a setup step.
-4. After you're finished setting up the site make sure to edit this repo with our standard readme for projects.
+2. Keep SETUP.md in the repo so future devs know how to begin with this project.
+3. Update SETUP.md with the specific tools you use for a project. For instance, if you need to use composer, make sure to add a setup step.
+4. After you're finished, replace this README with the "New Repo README" below.
 
 ### New Repo README
 
