@@ -17,7 +17,7 @@ public/uploads/*
 # ------------------------------------------------------------
 .env
 robots.txt
-**/.htaccess
+public/.htaccess
 craft/vendor/*
 composer.lock
 
