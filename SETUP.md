@@ -1,4 +1,4 @@
-#Craft Local Setup Guide
+# Craft Local Setup Guide
 
 1. Create Your database and vhost file
 	* There is nothing unsual about creating your database

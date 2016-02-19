@@ -1,13 +1,13 @@
-# Boilerplate Setup / Installation
+# Craft Boilerplate Setup / Installation
 
 1. Import the boilerplate to our [bitbucket team.](https://bitbucket.org/repo/import)
   * Use this as the url: `https://github.com/40Digits/craft-boilerplate.git` to import
 2. Clone the newly imported repo
 3. `cd` into the root level of the project
-4. Application setup instructions are in SETUP.md.
-  * Keep SETUP.md in the repo so that future devs know how to begin with this project.
-  * Update SETUP.md with the specific tools you use for a project. For instance, if you need to use composer, make sure to add a setup step.
-5. After you're finished, replace this README with the "New Repo README" below.
+4. Application setup instructions are in [SETUP.md](SETUP.md)
+  * Keep [SETUP.md](SETUP.md) in the repo so that future devs know how to begin with this project
+  * Update [SETUP.md](SETUP.md) with the specific tools you use for a project. For instance, if you need to use composer, make sure to add a setup step
+5. After you're finished, replace this README with the "New Repo README" below
 6. Push up your changes and start developing!
 
 ### New Repo README
