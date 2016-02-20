@@ -4,7 +4,7 @@
   "description": "A craft boilerplate",
   "main": "gulpfile.js",
   "scripts": {
-    "update-craft": "mkdir tmp && mkdir -p craft/app && curl -L http://buildwithcraft.com/latest.zip?accept_license=yes -o tmp/Craft.zip && unzip tmp/Craft.zip -d tmp/ && cp -r tmp/craft/app/* craft/app/.; rm -rf tmp/;",
+    "update-craft": "mkdir tmp && mkdir -p craft/app && curl -L http://buildwithcraft.com/latest.zip?accept_license=yes -o tmp/Craft.zip && unzip tmp/Craft.zip -d tmp/ && cp -r tmp/craft/app/* craft/app/.; rm -rf tmp/;"
   },
   "repository": {
     "type": "git",
