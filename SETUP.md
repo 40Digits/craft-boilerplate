@@ -38,7 +38,8 @@
 8. Gulp Eta
 	* We use [40Digits gulp-eta](https://github.com/40Digits/gulp-eta). If you need more info about how to set it up follow that link
 	* run `npm install` -- Downloads necessary NPM packages (like gulp and gulp-eta) to start installation
+	* If you don't already have gulp installed globally, run `npm install -g gulp`
 	* run these commands if you're the first one to set this project up
-	  * run `gulp init` -- creates `_src` folder and additional dependencies
+	  * run `gulp init` -- creates `_src` folder and additional dependencies\
 	  * run `gulp` -- creates your assests folder and builds files from `_src`
   * Next time you start the project, run `gulp browserSync` -- starts up BrowserSync and Watch
