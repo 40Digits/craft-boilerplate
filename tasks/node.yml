@@ -1,0 +1,7 @@
+- name: Install NodeJS package
+  apt: name=nodej state=latest
+- name: Install NPM Packages
+  become: yes
+  npm: name=gulp global=yes
+  npm: name=jquery path=/vagrant
+  npm: name=gulp-eta path=/vagrant   
