@@ -4,15 +4,17 @@
 
 {# custom variables for category content #}
 {% if category is defined %}
-  {% set bodyClasses = 'nslug-'~category.slug~' nid-'~category.id %}
   {% set entryType = category %}
 {% endif %}
 
 {# custom variables for entry content #}
 {% if entry is defined %}
-  {% set bodyClasses = 'nslug-'~entry.slug~' nid-'~entry.id %}
   {% set entryType = entry %}
 {% endif %}
+
+{# classes populated on the body element #}
+{# pulling the slug & ID #}
+{% set bodyClasses = entryType is defined ? 'node-'~entryType.slug~' nid-'~entryType.id %}
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
@@ -43,11 +45,10 @@
   </div>
 <![endif]-->
 
-<body class="node-{{ craft.request.getSegment(1) ?: 'home' }} {{ bodyClasses is defined ? bodyClasses|lower }}">
+<body class="{{ bodyClasses|lower }}">
 
   <header class="global-header">
     <h1><a href="{{ siteUrl }}">{{ siteName }}</a></h1>
-    </nav>
   </header>
 
   <main id="content" role="main">

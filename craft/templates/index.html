@@ -5,6 +5,7 @@
 {% extends "_layout" %}
 {% set title = "Home" %}
 
+{# example #}
 {# define custom breadcrumbs to pass to sample comonent #}
 {% set breadcrumbs = ([
   {
@@ -30,7 +31,7 @@
     } %}
 
     {# pull in sample module #}
-    {% include '_module/sample.html' with {
+    {% include '_modules/sample.html' with {
       "moduleHeading": "Module Heading",
       "moduleMessage": "My Module Content"
     } %}
