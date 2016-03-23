@@ -1,0 +1,15 @@
+{# -----------------------------
+ # Component: Sample
+ # ----------------------------- #}
+
+<nav class="comp-sample">
+
+  {% if breadcrumbs %}
+    <ul class="breadcrumbs">
+      {% for crumb in breadcrumbs %}
+        <li><a href="{{ crumb.url }}" title="{{ crumb.title }}">{{ crumb.title|raw }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</nav>
