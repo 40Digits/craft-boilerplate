@@ -21,21 +21,18 @@
   * `cp craft/config/local/general.example.php craft/config/local/general.php`
   * Make sure to take a look at that file, but you shouldn't need to update anything just yet
 
-5. Create storage folder
-  * We don't want to track anything in the storage folder so we've just left it out, but you still need it so do this: `mkdir craft/storage`
-
-6. Install CraftCMS DB
+5. Install CraftCMS DB
   * You really only need to do this if you're the first one to set this project up. If there's already a dev site then just skip this step
   * In your browser, go to `site-name/admin` and run through the install process
 
-7. dbmigrate.php
+6. dbmigrate.php
   * In order to keep every developer's local env up to date we only make db changes on development
   * After you make db changes you can sync those changes down to your local
   * Make sure to have all of the variables setup in db.php and the syncOptions variables in general.php
   * Run `npm run migrate:down` in order to pull down the dev database and any synced folders
   * Depending on when you setup your development site you won't need to do this until later on
 
-8. Gulp Eta
+7. Gulp Eta
   * We use [40Digits gulp-eta](https://github.com/40Digits/gulp-eta). If you need more info about how to set it up follow that link
   * In this project all Eta's tasks can be run using NPM scripts
   * run `npm install` -- Downloads necessary NPM packages (like gulp and gulp-eta) to start installation
