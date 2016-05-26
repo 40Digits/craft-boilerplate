@@ -20,6 +20,7 @@ robots.txt
 public/.htaccess
 craft/vendor/*
 composer.lock
+craft/app/*
 
 
 # Logs & Databases
@@ -71,3 +72,4 @@ db_backups
 ehthumbs.db
 Thumbs.db
 Icon?
+*.swp
