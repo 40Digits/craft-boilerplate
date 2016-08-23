@@ -6,19 +6,6 @@
   "scripts": {
     "update-craft": "mkdir tmp && mkdir -p craft/app && curl -L http://buildwithcraft.com/latest.zip?accept_license=yes -o tmp/Craft.zip && unzip tmp/Craft.zip -d tmp/ && cp -r tmp/craft/app/* craft/app/.; rm -rf tmp/;",
     "migrate:down": "php dbmigrate.php",
-    "start": "gulp",
-    "init": "gulp init",
-    "build:images": "gulp images",
-    "build:js": "gulp browserify",
-    "build:js:minify": "gulp uglifyJs",
-    "build:sass": "gulp sass",
-    "build:sass:minify": "gulp minifyCss",
-    "build:sprites": "gulp sprites",
-    "build:symbols": "gulp symbols",
-    "build:static": "gulp static",
-    "build:production": "gulp production",
-    "watch": "gulp watch",
-    "bs": "gulp browserSync"
   },
   "repository": {
     "type": "git",
@@ -31,23 +18,9 @@
   },
   "homepage": "https://github.com/40Digits/craft-boilerplate#readme",
   "devDependencies": {
-    "browserify": "^12.0.1",
-    "browserify-ejs": "0.0.2",
-    "browserify-shim": "^3.8.12",
-    "gulp": "^3.9.1",
-    "gulp-eta": "^0.5.4"
   },
   "browser": {
     "waitFor": "./craft/_src/js/lib/waitFor.js"
-  },
-  "browserify": {
-    "transform": [
-      "browserify-ejs",
-      "browserify-shim"
-    ]
-  },
-  "browserify-shim": {
-    "jquery": "global:$"
   },
   "dependencies": {
     "sassqwatch": "^0.7.4"
