@@ -10,6 +10,9 @@
 5. After you're finished, replace this README with the "New Repo README" below
 6. Push up your changes and start developing!
 
+### Build Tools
+Since the deprecation of Eta, we have since moved to using npm scripts as our build tools and task runner. (For more information on using npm as a build tool feel free to check this [How to use npm as a build tool.](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/) ) If you're interested in which npm packages we currently use and care to use some of our recipes feel free to check out our [40D-tools-list repo](https://github.com/40Digits/40d-tools-list).
+
 ### New Repo README
 
 ```
